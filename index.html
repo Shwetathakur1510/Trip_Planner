@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/62f258de54f06e12d88db87a/1ga1amal4';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <title>Trip Planner</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/templatemo-style.css">  
+                                     <!-- Templatemo style -->
+    <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('9ifwuiznbah2');
+    </script>
+    <!-- End of Async Drift Code -->
+
+  
+</head>
+
+<body>
+        <div class="tm-main-content" id="top">
+            <div class="tm-top-bar-bg"></div>    
+            <div class="tm-top-bar" id="tm-top-bar">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg narbar-light">
+                            <a class="navbar-brand mr-auto" href="#">
+                                <img src="img/logo1.png" alt="Site logo">
+                                SAFAR
+                            </a>
+                            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-2">Top Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Recommended Places</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-4">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  class="nav-link" href="login/index.html">My Trips</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  class="nav-link" href="signup.html">SignUp</a>
+                                </li>
+                                
+                              <!-- <li class="nav-item">
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="btnSubmit">&nbsp;</label>
+                                        <button type="submit" href="signup.html" id="btnSubmit">SignUp</button>
+                                    </div>
+                                </li>-->
+                            </ul>
+                        </div>                            
+                    </nav>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- .tm-top-bar -->
+
+        <div class="tm-page-wrap mx-auto">
+            <section class="tm-banner">
+                <div class="tm-container-outer tm-banner-bg">
+                    <div class="container">
+
+                        <div class="row tm-banner-row tm-banner-row-header">
+                            <div class="col-xs-12">
+                                <div class="tm-banner-header">
+                                    <h1 class="text-uppercase tm-banner-title">Let's begin</h1>
+                                    <img src="img/dots-3.png" alt="Dots">
+                                    <p class="tm-banner-subtitle">We assist you to choose the best.</p>
+                                    <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>       
+                                </div>    
+                            </div>  <!-- col-xs-12 -->                      
+                        </div> <!-- row -->
+                        <div class="row tm-banner-row" id="tm-section-search">
+
+                            <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                <div class="form-row tm-search-form-row">                                
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="inputCity">Choose Your Destination</label>
+                                        <input name="destination" type="text" class="form-control" id="inputCity" placeholder="Type your destination...">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-1">                                    
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
+                                            <label for="inputRoom">How many rooms?</label>
+                                            <select name="room" class="form-control tm-select" id="inputRoom">
+                                                <option value="1" selected>1 Room</option>
+                                                <option value="2">2 Rooms</option>
+                                                <option value="3">3 Rooms</option>
+                                                <option value="4">4 Rooms</option>
+                                                <option value="5">5 Rooms</option>
+                                                <option value="6">6 Rooms</option>
+                                                <option value="7">7 Rooms</option>
+                                                <option value="8">8 Rooms</option>
+                                                <option value="9">9 Rooms</option>
+                                                <option value="10">10 Rooms</option>
+                                            </select>                                        
+                                        </div>
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">                                       
+                                            <label for="inputAdult">Adult</label>     
+                                            <select name="adult" class="form-control tm-select" id="inputAdult">
+                                                <option value="1" selected>1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>                                        
+                                        </div>
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+
+                                            <label for="inputChildren">Children</label>                                            
+                                            <select name="children" class="form-control tm-select" id="inputChildren">
+                                            	<option value="0" selected>0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>                                        
+                                        </div>
+                                    </div>
+                                </div> <!-- form-row -->
+                                <div class="form-row tm-search-form-row">
+
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckIn">Check In Date</label>
+                                        <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckOut">Check Out Date</label>
+                                        <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="btnSubmit">&nbsp;</label>
+                                        <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">Check Availability</button>
+                                    </div>
+                                </div>                              
+                            </form>                             
+
+                        </div> <!-- row -->
+                        <div class="tm-banner-overlay"></div>
+                    </div>  <!-- .container -->                   
+                </div>     <!-- .tm-container-outer -->                 
+            </section>
+
+            <section class="p-5 tm-container-outer tm-bg-gray">            
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 mx-auto tm-about-text-wrap text-center">                        
+                            <h2 class="text-uppercase mb-4">Your <strong>Journey</strong> is our priority</h2>
+                            <p class="mb-4">We provide best tours and travel guide.</p>
+                            <a href="explorer/index.html" class="text-uppercase btn-primary tm-btn">Continue explore</a>                              
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            
+            <div class="tm-container-outer" id="tm-section-2">
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/tm-img-01.jpg" alt="Image">
+                        <img src="img/tm-img-02.jpg" alt="Image">
+                        <img src="img/tm-img-03.jpg" alt="Image">    
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">Bihar's most visited places</h2>
+                        <p>Among all the states of India it is Bihar that is perhaps the richest in terms of heritage. Its history can be traced back to the dawn of civilization.</p>
+                        <a href="explorer/index.html" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+                <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
+                        <img src="img/india1.jpg" alt="Image">
+                        <img src="img/india02.jpg" alt="Image">
+                        <img src="img/india03.jpg" alt="Image">
+                        <img src="img/darjeeling.jpg" alt="Image">
+                        <img src="img/goa.jpg" alt="Image">
+                        <img src="img/kolkata.jpg" alt="Image">
+                        <img src="img/ladakh.jpg" alt="Image">
+                        <img src="img/mysore.jpg" alt="Image">
+                        <img src="img/mcleod-ganj.jpg" alt="Image">
+                    </div> 
+
+                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+                        <h2 class="">India's most popular places</h2>
+                        <p></p>
+                        <a href="" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
+                    </div>                        
+
+                </section>
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/Snow-Peak-Munsiyari.jpg" alt="Image">
+                        <img src="img/nature1.jpg" alt="Image">
+                        <img src="img/nature2.jpg" alt="Image">
+                        <img src="img/Shola-Forest-Nilgiri.jpg" alt="Image">
+                        <img src="img/snowfall-in-srinagar.jpg" alt="Image">
+                        <img src="img/Sundarbans-forest.jpg" alt="Image">
+                        <img src="img/Thar-Desert-sand.jpg" alt="Image">
+                        <img src="img/loktak-lake.jpg" alt="Image">
+                        <img src="img/Khajjiar.jpg" alt="Image">
+                        <img src="img/manali.jpg" alt="Image">
+
+
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">Best Natural Scenic Beauty to Visit </h2>
+                        <p>Donec nec laoreet diam, at vehicula ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nec dapibus nunc, quis viverra metus. Morbi eget diam gravida, euismod magna vel, tempor urna.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+            </div>        
+            <div class="tm-container-outer" id="tm-section-3">
+                <ul class="nav nav-pills tm-tabs-links">
+                    <li class="tm-tab-link-li" >
+                        <a href="#1a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/Hill-station.png"   alt="Image" class="img-fluid">
+                             Hills
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#2a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/Beaches.png" alt="Image" class="img-fluid">
+                            Beaches
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#3a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/Religious.png" alt="Image" class="img-fluid">
+                            Religious
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#4a" data-toggle="tab" class="tm-tab-link active"><!-- Current Active Tab -->
+                            <img src="img/Adventure.png" alt="Image" class="img-fluid">
+                            Adventure
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#5a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/Historical.png" alt="Image" class="img-fluid">
+                            Heritage
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="tm-tab-link-li">
+                        <a href="#6a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/yoga.png" alt="Image" class="img-fluid">
+                            Meditational
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#7a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/Wildlife.png" alt="Image" class="img-fluid">
+                            Wildlife
+                        </a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content clearfix">
+                	
+                    <!-- Tab 1 -->
+                    <div class="tab-pane fade" id="1a">
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/kasol.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3  href ="hills/index.html" class="tm-recommended-title">Kasol</h3>
+                                    <p class="tm-text-highlight">Mini Israel in Himachal Pradesh</p>
+                                    <p class="tm-text-gray">The hill-hamlet of Kasol stands at over 1,580 meters above sea level, in Himachal Pradesh, and flaunts raw natural beauty with lush conifer forests, snow-capped Himalayan mountains and winding rivers.</p>   
+                                </div>
+                                <a href="hills/kasol/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">Rs 11000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/landsowne.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Landsowne</h3>
+                                    <p class="tm-text-highlight">Pretty Cantonment in Uttrakhand</p>
+                                    <p class="tm-text-gray">Untouched by urbanization, and situated at an altitude of 1,730 metres, Lansdowne is a quaint and charming hill station with oak forests, snow-capped mountains and lush green valleys.</p>   
+                                </div>
+                                <div id="preload-hover-img"></div>
+                                <a href="hills/Landsowne/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">12000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_destination-coonoor-landscape_l_400_640.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Coonoor</h3>
+                                    <p class="tm-text-highlight">A serene hill statio in tamil nadu</p>
+                                    <p class="tm-text-gray">Blessed with stunning flora and fauna of the Nilgiris Hills, Coonoor is the quintessential hill station with viewpoints, waterfalls, lakes, gardens, tea estates and colonial-style architecture.</p>   
+                                </div>
+                                <a href="hills/Coonoor/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">13000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_destination-gulmarg-landscape_l_400_640.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Gulmarg</h3>
+                                    <p class="tm-text-highlight">Heaven in white hills of Kashmir</p>
+                                    <p class="tm-text-gray">Gulmarg is the crowning glory of Jammu & Kashmir and is located 2,650 meters above sea level. Known as the “Meadow of Flowers”, it boasts of the world’s highest golf-course.</p>   
+                                </div>
+                                <a href="hills/Gulmarg/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">14000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->
+                    
+                    <!-- Tab 2 -->
+                    <div class="tab-pane fade" id="2a">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/goa.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Goa</h3>
+                                    <p class="tm-text-highlight">Popular for Beaches and Nightlife</p>
+                                    <p class="tm-text-gray">Popularly known as India’s party capital, Goa seduces travellers from all around the globe with its boho beaches, ancient churches, majestic forts and unbeatable nightlife!</p>   
+                                </div>
+                                <a href="beaches/goa/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">14000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_Lakshadweep_l_580_870.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Lakshadweep</h3>
+                                    <p class="tm-text-highlight">Tropical band of Islands</p>
+                                    <p class="tm-text-gray">Settled off the Kerala coast on Laccadive sea, Lakshadweep translates to ‘a hundred thousand islands’. A club of 36 atolls and coral reefs, the nature tourism destination is known for preserved ecology and water sports.</p>   
+                                </div>
+                                <a href="beaches/lakshdweep/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">20000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_bali_l_393_629.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Bali</h3>
+                                    <p class="tm-text-highlight">Tropical Beach Paradise</p>
+                                    <p class="tm-text-gray">An exotic tropical destination that flaunts scenic beaches and mountains, Bali is deep-rooted in culture and tradition, which adds to the charm of this scenic island.</p>   
+                                </div>
+                                <a href="beaches/bali/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">24000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_Maldives_l_400_640.jpg"alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Maldives</h3>
+                                    <p class="tm-text-highlight">A Stunning Tropical Gateway</p>
+                                    <p class="tm-text-gray">Home to sun-kissed beaches, swaying palms, sculpted coral reefs, luxury resorts and thrilling water sports, the tropical paradise called Maldives is a string of beautiful islands.</p>   
+                                </div>
+                                <a href="beaches/maldives/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">25000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->          
+                    
+                    <!-- Tab 3 -->     
+                    <div class="tab-pane fade" id="3a">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/m_activities_kedarnath_kedarnath_temple_l_365_547.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title"> Kedarnath</h3>
+                                    <p class="tm-text-highlight">Pilgrimage in Uttrakhand</p>
+                                    <p class="tm-text-gray">Shri Kedarnath is the eleventh Jyotirlinga, out of the twelve Jyotirlinga of India was established by Aadi Guru Shankaracharya. The Badarinath Temple which is one of the foremost sacred places of Hindu pilgrimage in India is situated in the Garhwal district on the heights of the Himalayas.</p>   
+                                </div>
+                                <a href="Religious/Kedarnath/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10330</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_tirupati-landscape_l_400_640.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Tirupati </h3>
+                                    <p class="tm-text-highlight">Spiritual City in Andhra Pradesh</p>
+                                    <p class="tm-text-gray">Tirupati is home to the sacred Sri Venkateswara temple, sitting atop the beautiful Tirumala Hills, and thus considered as an epicenter of spiritual devotion.
+
+                                    </p>   
+                                </div>
+                                <a href="Religious/Tirupati/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">7000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Jama_Masjid_-_In_the_Noon.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Jama Masjid</h3>
+                                    <p class="tm-text-highlight">Holy Mosque in Delhi</p>
+                                    <p class="tm-text-gray"> The Jama Masjid was regarded as a symbolic node of Islamic power across India, well into the colonial era. </p>   
+                                </div>
+                                <a href="Religious/Jama Masjid/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_activities_amritsar_golden_temple_l_427_639.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Golden Temple</h3>
+                                    <p class="tm-text-highlight">Amritsar, Spiritual Capital of Punjab</p>
+                                    <p class="tm-text-gray">Home to the legendary Sikh shrine Golden Temple, Amritsar is fondly called Ambarsar and will steal your heart with its colourful bazaars, lip-smacking street food, shopping hubs and historical monuments</p>   
+                                </div>
+                                <a href="Religious/Golden Temple/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3600</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->
+                    
+                    <!-- Tab 4 -->
+                    <div class="tab-pane fade show active" id="4a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/birbilling.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Bir Billing</h3>
+                                    <p class="tm-text-highlight">Himachal Pradesh</p>
+                                    <p class="tm-text-gray">Bir-Billing is a village settled in the Joginder Valley of Himachal Pradesh. The place portrays a typical and idyllic village setting. However, very close to the village you will find an entirely different picture.</p>   
+                                </div>
+                                <a href="Adventure/Bir Billing/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">11400</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Dandeli.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Dandeli</h3>
+                                    <p class="tm-text-highlight">Karnataka- Goa border in Karnataka</p>
+                                    <p class="tm-text-gray">Dandeli offers a plethora of activities like trekking, wildlife spotting, and photography, kayaking, and fishing. There is also a sanctuary located quite close to Dandeli where you can take a jeep safari and spot birds and wildlife.</p>   
+                                </div>
+                                <div id="preload-hover-img"></div>
+                                <a href="Adventure/Dandeli/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">11500</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/andaman.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Andaman Nicobar Island</h3>
+                                    <p class="tm-text-highlight">Andaman, UT of India</p>
+                                    <p class="tm-text-gray">You can engage in activities like snorkeling in the crystal clear waters or discover the various coral life forms and sea life when you go scuba diving. There are shipwrecks, too, to explore underwater.</p>   
+                                </div>
+                                <a href="Adventure/Andaman/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">21460</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Hrishikesh.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Rishikesh</h3>
+                                    <p class="tm-text-highlight">Uttrakhand</p>
+                                    <p class="tm-text-gray">You can engage in activities such as rafting in the Ganga River, rock and cliff climbing, take part in a survival camp at the nearby forest or go bungee jumping. The bungee jump is the highest in India at a staggering 83 meters high – leaving you in freefall for a whole 5 seconds.</p>   
+                                </div>
+                                <a href="Adventure/Rishikesh/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">19470</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->
+                    
+                    <!-- Tab 5 -->
+                    <div class="tab-pane fade" id="5a">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/m_destination-jodhpur-landscape_l_400_640.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Jodhpur</h3>
+                                    <p class="tm-text-highlight">A Hub of Royal Heritage</p>
+                                    <p class="tm-text-gray">Known for the magnificent Mehrangarh Fort, famous palaces and lakes, Jodhpur is a popular tourist destination, divided into the Old City and New City by a 10 km long wall.</p>   
+                                </div>
+                                <a href="Heritage/Jodhpur/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">5500</p>
+                                    <p class="tm-recommended-price-link">Explore </p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_destination_lucknow_landscape_l_400_640.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Lucknow</h3>
+                                    <p class="tm-text-highlight">A city of Nawabs</p>
+                                    <p class="tm-text-gray">An erstwhile home to the Nawabs of Oudh, Lucknow is dotted with structures from the British Raj-era, lively bazaars, grand monuments and parks, and of-course eateries selling mouth-watering kebabs.</p>   
+                                </div>
+                                <a href="Heritage/Lucknow/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3600</p>
+                                    <p class="tm-recommended-price-link">Explore</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_destination-udaipur-landscape_l_400_640.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Udaipur</h3>
+                                    <p class="tm-text-highlight">The City of Lakes</p>
+                                    <p class="tm-text-gray">Snuggled along the banks of Lake Pichola with a gorgeous backdrop of the Aravalli Hills, Udaipur charms you with its age-hold heritage and culture mirrored in stately palaces, magnificent temples and sparkling lakes.</p>   
+                                </div>
+                                <a href="Heritage/Udaipur/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">5700</p>
+                                    <p class="tm-recommended-price-link">Explore</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/m_Destination_Gwalior_l_522_822.webp" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Gwalior</h3>
+                                    <p class="tm-text-highlight">The land of Palaces</p>
+                                    <p class="tm-text-gray">As the cradle of Indian culture and heritage for many centuries, Gwalior is a timeless treasure of art and music. The cityscape is adorned with historical monuments and a hilltop fort that are souvenirs of the dynasties that ruled here.</p>   
+                                </div>
+                                <a href="Heritage/Gwalior/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">5800</p>
+                                    <p class="tm-recommended-price-link">Explore</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->   
+                    
+                    <!-- Tab 6 -->            
+                    <div class="tab-pane fade" id="6a">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/Isha-Yoga-Center-495x330.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Isha Yoga Center</h3>
+                                    <p class="tm-text-highlight">Coimbatore, India</p>
+                                    <p class="tm-text-gray">It was started by yogi Sadhguru back in 1992. Here, people can practice various forms of yoga and meditation and become one with nature and themselves. </p>   
+                                </div>
+                                <a href="Meditational/Isha/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/playing-tennis-495x330.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Osho International Meditational Resort </h3>
+                                    <p class="tm-text-highlight">Pune</p>
+                                    <p class="tm-text-gray">Osho is a world famous Indian spiritual guru who brought a new type of philosophy and way of thinking for people. He believed in the importance and powers of meditation, love, courage, mindfulness, humor and creativity</p>   
+                                </div>
+                                <a href="Meditational/osho/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Vipassana-495x330.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Vipassana International Academy</h3>
+                                    <p class="tm-text-highlight">Maharastra</p>
+                                    <p class="tm-text-gray">Vipassana International Academy Dhamma Giri located in Igatpuri, Maharashtra was started in 1976 and has become one of the largest Vipassana meditation centers in the world. It is a full-fledged institute that offers a variety of courses that range from 2 day to 10-day courses.</p>   
+                                </div>
+                                <a href="Meditational/vipassana/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">16400</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/download.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Art of Living</h3>
+                                    <p class="tm-text-highlight">Bangalore</p>
+                                    <p class="tm-text-gray">Founded in 1981 as a humanitarian NGO, The Art of Living foundation has changed the lives of a lot of people who have volunteered for it. The Art of Living International Center in Bangalore allows its patrons to participate in satsangs, meditative walks and various residential programs.</p>   
+                                </div>
+                                <a href="Meditational/ArtofLiving/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">$630</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->
+                    
+                    <!-- Tab 7 -->
+                    <div class="tab-pane fade" id="7a">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/corbett.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Corbett national Park</h3>
+                                    <p class="tm-text-highlight">Uttrakhand</p>
+                                    <p class="tm-text-gray">Corbett National Park, which is a part of the larger Corbett Tiger Reserve, a Project Tiger Reserve lies in the Nainital district of Uttarakhand. The magical landscape of Corbett is well known and fabled for its tiger richness. Established in the year 1936 as Hailey National Park, Corbett has the glory of being India's oldest and most prestigious National Park.</p>   
+                                </div>
+                                <a href="Wildlife/Corbett/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">$770</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/One-horned-rhino.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Kaziranga National Park</h3>
+                                    <p class="tm-text-highlight">Assam</p>
+                                    <p class="tm-text-gray">Kaziranga National Park is the only natural habitat of the endangered One-Horned Rhinos in India as well as in the world. Located in the Golaghat district of Assam, Kaziranga National Park is one of the largest wildlife sanctuaries to explore the wildlife of Northeast India. It is also a highly visited park among the top 10 national parks in India. </p>   
+                                </div>
+                                <a href="Wildlife/kaziranga/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">12300</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Bhadra-National-Park.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Bhadra National Park</h3>
+                                    <p class="tm-text-highlight">Chikmanglore</p>
+                                    <p class="tm-text-gray">Enveloped by both dry and moist deciduous forests and also semi evergreen forests, the Bhadra Wildlife Sanctuary is a must-visit place. This is the right place for travellers to experience and admire the wilderness and the miracles of nature./p>   
+                                </div>
+                                <a href="Wildlife/bhadra/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">11400</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/Sundarban.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Sundarban National Park</h3>
+                                    <p class="tm-text-highlight">West Bengal</p>
+                                    <p class="tm-text-gray">Sunderbans National Park is one of the largest and oldest in India. Located in the deltaic region of India, this park also shares its boundaries with Bangladesh. Covered with mangrove forests, Sundarbans is the original abode of the stunning Royal Bengal Tigers
+
+                                    </p>   
+                                </div>
+                                <a href="Wildlife/Sundarban/index.html" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">11190</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>    
+                        </div>                        
+
+                        <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
+                    </div> <!-- tab-pane -->
+                </div>
+            </div>
+
+            <div class="tm-container-outer tm-position-relative" id="tm-section-4">
+                <div id="google-map"></div>
+                <form action="index.html" method="post" class="tm-contact-form">
+                    <div class="form-group tm-name-container">
+                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                    </div>
+                    <div class="form-group tm-email-container">
+                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Send Message Now</button>
+                </form>
+            </div> <!-- .tm-container-outer -->
+
+            <footer class="tm-container-outer">
+                <p class="mb-0">Copyright © <span class="tm-current-year">2022</span>
+                    
+                . Designed by <a href="#" target="_parent"> Us</a></p>
+            </footer>
+        </div>
+    </div> <!-- .main-content -->
+
+    <!-- load JS files -->
+    <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+    <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->       
+    <script src="js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
+    <script src="js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
+    <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+    <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->
+    <script src="js/jquery.scrollTo.min.js"></script>           <!-- https://github.com/flesler/jquery.scrollTo -->
+    <script> 
+        /* Google Maps
+        ------------------------------------------------*/
+        var map = '';
+        var center;
+
+        function initialize() {
+            var mapOptions = {
+                zoom: 16,
+                center: new google.maps.LatLng(37.769725, -122.462154),
+                scrollwheel: false
+            };
+
+            map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
+
+            google.maps.event.addDomListener(map, 'idle', function() {
+              calculateCenter();
+          });
+
+            google.maps.event.addDomListener(window, 'resize', function() {
+              map.setCenter(center);
+          });
+        }
+
+        function calculateCenter() {
+            center = map.getCenter();
+        }
+
+        function loadGoogleMap(){
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDVWt4rJfibfsEDvcuaChUaZRS5NXey1Cs&v=3.exp&sensor=false&' + 'callback=initialize';
+            document.body.appendChild(script);
+        } 
+
+        /* DOM is ready
+        ------------------------------------------------*/
+        $(function(){
+
+            // Change top navbar on scroll
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 100) {
+                    $(".tm-top-bar").addClass("active");
+                } else {                    
+                 $(".tm-top-bar").removeClass("active");
+                }
+            });
+
+            // Smooth scroll to search form
+            $('.tm-down-arrow-link').click(function(){
+                $.scrollTo('#tm-section-search', 300, {easing:'linear'});
+            });
+
+            // Date Picker in Search form
+            var pickerCheckIn = datepicker('#inputCheckIn');
+            var pickerCheckOut = datepicker('#inputCheckOut');
+
+            // Update nav links on scroll
+            $('#tm-top-bar').singlePageNav({
+                currentClass:'active',
+                offset: 60
+            });
+
+            // Close navbar after clicked
+            $('.nav-link').click(function(){
+                $('#mainNav').removeClass('show');
+            });
+
+            // Slick Carousel
+            $('.tm-slideshow').slick({
+                infinite: true,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+
+            loadGoogleMap();                                       // Google Map                
+            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
+        });
+
+    </script>             
+
+</body>
+</html>
